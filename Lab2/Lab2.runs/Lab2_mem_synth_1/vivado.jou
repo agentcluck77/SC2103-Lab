@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Jan 28 13:52:12 2026
+# Process ID: 19332
+# Current directory: D:/Lab2/Lab2.runs/Lab2_mem_synth_1
+# Command line: vivado.exe -log Lab2_mem.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Lab2_mem.tcl
+# Log file: D:/Lab2/Lab2.runs/Lab2_mem_synth_1/Lab2_mem.vds
+# Journal file: D:/Lab2/Lab2.runs/Lab2_mem_synth_1\vivado.jou
+# Running On: hw3-r1-v01, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 8, Host memory: 34059 MB
+#-----------------------------------------------------------
+source Lab2_mem.tcl -notrace
