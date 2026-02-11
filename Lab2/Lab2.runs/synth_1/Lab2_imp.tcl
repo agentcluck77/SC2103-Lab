@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "D:/Lab2/Lab2.runs/synth_1/Lab2_imp.tcl"
+  variable script "D:/SC2103-Lab-main/Lab2/Lab2.runs/synth_1/Lab2_imp.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,10 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param checkpoint.writeSynthRtdsInDcp 1
-set_param chipscope.maxJobs 4
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
@@ -81,22 +77,22 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir D:/Lab2/Lab2.cache/wt [current_project]
-set_property parent.project_path D:/Lab2/Lab2.xpr [current_project]
+set_property webtalk.parent_dir D:/SC2103-Lab-main/Lab2/Lab2.cache/wt [current_project]
+set_property parent.project_path D:/SC2103-Lab-main/Lab2/Lab2.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo d:/Lab2/Lab2.cache/ip [current_project]
+set_property ip_output_repo d:/SC2103-Lab-main/Lab2/Lab2.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
-  D:/Lab2/Lab2.srcs/sources_1/new/Lab2_top_tb.v
-  D:/Lab2/src/clkgen.v
-  D:/Lab2/src/seven_seg.v
-  D:/Lab2/src/Lab2_imp.v
+  D:/SC2103-Lab-main/Lab2/Lab2.srcs/sources_1/new/Lab2_top_tb.v
+  D:/SC2103-Lab-main/Lab2/src/clkgen.v
+  D:/SC2103-Lab-main/Lab2/src/seven_seg.v
+  D:/SC2103-Lab-main/Lab2/src/Lab2_imp.v
 }
-read_ip -quiet D:/Lab2/Lab2.srcs/sources_1/ip/Lab2_mem/Lab2_mem.xci
-set_property used_in_implementation false [get_files -all d:/Lab2/Lab2.gen/sources_1/ip/Lab2_mem_1/Lab2_mem_ooc.xdc]
+read_ip -quiet D:/SC2103-Lab-main/Lab2/Lab2.srcs/sources_1/ip/Lab2_mem/Lab2_mem.xci
+set_property used_in_implementation false [get_files -all d:/SC2103-Lab-main/Lab2/Lab2.gen/sources_1/ip/Lab2_mem_1/Lab2_mem_ooc.xdc]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -107,12 +103,12 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc D:/Lab2/src/Lab2.xdc
-set_property used_in_implementation false [get_files D:/Lab2/src/Lab2.xdc]
+read_xdc D:/SC2103-Lab-main/Lab2/src/Lab2.xdc
+set_property used_in_implementation false [get_files D:/SC2103-Lab-main/Lab2/src/Lab2.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental D:/Lab2/Lab2.srcs/utils_1/imports/synth_1/Lab2_imp.dcp
+read_checkpoint -auto_incremental -incremental D:/SC2103-Lab-main/Lab2/Lab2.srcs/utils_1/imports/synth_1/Lab2_imp.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

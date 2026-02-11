@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "D:/Lab2/Lab2.runs/impl_1/Lab2_imp.tcl"
+  variable script "D:/SC2103-Lab-main/Lab2/Lab2.runs/impl_1/Lab2_imp.tcl"
   variable category "vivado_impl"
 }
 
@@ -115,8 +115,6 @@ proc step_failed { step } {
 OPTRACE "impl_1" END { }
 }
 
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 
 OPTRACE "impl_1" START { ROLLUP_1 }
 OPTRACE "Phase: Write Bitstream" START { ROLLUP_AUTO }
@@ -125,10 +123,9 @@ start_step write_bitstream
 set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
-  set_param checkpoint.writeSynthRtdsInDcp 1
   set_param chipscope.maxJobs 4
   open_checkpoint Lab2_imp_routed.dcp
-  set_property webtalk.parent_dir D:/Lab2/Lab2.cache/wt [current_project]
+  set_property webtalk.parent_dir D:/SC2103-Lab-main/Lab2/Lab2.cache/wt [current_project]
 set_property TOP Lab2_imp [current_fileset]
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }
