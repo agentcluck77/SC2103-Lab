@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/SC2103-Lab-main/Lab3/AM_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AM_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/SC2103-Lab-main/Lab3/array_mult_6bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module array_mult_6bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/SC2103-Lab-main/Lab3/AM_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AM_top_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/SC2103-Lab-main/Lab3/Lab3.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/SC2103-Lab-main/Lab3task3/AMP_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AMP_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/SC2103-Lab-main/Lab3task3/multA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/SC2103-Lab-main/Lab3task3/multB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/SC2103-Lab-main/Lab3task3/AMP_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AMP_top_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/SC2103-Lab-main/Lab3task3/Lab3task3.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

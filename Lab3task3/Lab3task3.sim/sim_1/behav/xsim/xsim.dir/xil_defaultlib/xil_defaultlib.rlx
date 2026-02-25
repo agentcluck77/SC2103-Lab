@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/SC2103-Lab-main/Lab3task3/AMP_top.v,1771994525,verilog,,C:/SC2103-Lab-main/Lab3task3/multA.v,,AMP_top,,,,,,,,
+C:/SC2103-Lab-main/Lab3task3/AMP_top_tb.v,1771994525,verilog,,,,AMP_top_tb,,,,,,,,
+C:/SC2103-Lab-main/Lab3task3/Lab3task3.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/SC2103-Lab-main/Lab3task3/multA.v,1771994525,verilog,,C:/SC2103-Lab-main/Lab3task3/multB.v,,multA,,,,,,,,
+C:/SC2103-Lab-main/Lab3task3/multB.v,1771994526,verilog,,C:/SC2103-Lab-main/Lab3task3/AMP_top_tb.v,,multB,,,,,,,,
