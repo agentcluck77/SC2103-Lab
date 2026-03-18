@@ -1,0 +1,16 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/SC2103-Lab-main/Lab4/Lab4.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/SC2103-Lab-main/Lab4/Lab4.srcs/sim_1/imports/Lab4/uP16_top_tb.v,1773808567,verilog,,,,uP16_top_tb,,,,,,,,
+C:/SC2103-Lab-main/Lab4/uP_src/Data_mem.v,1773808567,verilog,,C:/SC2103-Lab-main/Lab4/uP_src/EX_Mem_PR.v,,D_mem,,,,,,,,
+C:/SC2103-Lab-main/Lab4/uP_src/EX_Mem_PR.v,1773808567,verilog,,C:/SC2103-Lab-main/Lab4/uP_src/EX_stage.v,,EX_Mem_PR,,,,,,,,
+C:/SC2103-Lab-main/Lab4/uP_src/EX_stage.v,1773808567,verilog,,C:/SC2103-Lab-main/Lab4/uP_src/ID_EX_PR.v,,ALU;EX_stage,,,,,,,,
+C:/SC2103-Lab-main/Lab4/uP_src/ID_EX_PR.v,1773808567,verilog,,C:/SC2103-Lab-main/Lab4/uP_src/ID_stage.v,,ID_EX_PR,,,,,,,,
+C:/SC2103-Lab-main/Lab4/uP_src/ID_stage.v,1773808567,verilog,,C:/SC2103-Lab-main/Lab4/uP_src/IF_ID_PR.v,,Control;ID_stage;Reg_File,,,,,,,,
+C:/SC2103-Lab-main/Lab4/uP_src/IF_ID_PR.v,1773808567,verilog,,C:/SC2103-Lab-main/Lab4/uP_src/IF_stage.v,,IF_ID_PR,,,,,,,,
+C:/SC2103-Lab-main/Lab4/uP_src/IF_stage.v,1773808567,verilog,,C:/SC2103-Lab-main/Lab4/uP_src/Instruct_mem.v,,IF_stage,,,,,,,,
+C:/SC2103-Lab-main/Lab4/uP_src/Instruct_mem.v,1773808567,verilog,,C:/SC2103-Lab-main/Lab4/uP_src/Mem_stage.v,,I_mem,,,,,,,,
+C:/SC2103-Lab-main/Lab4/uP_src/Mem_stage.v,1773808567,verilog,,C:/SC2103-Lab-main/Lab4/uP_src/uP16_top.v,,Mem_stage,,,,,,,,
+C:/SC2103-Lab-main/Lab4/uP_src/uP16_top.v,1773808567,verilog,,C:/SC2103-Lab-main/Lab4/Lab4.srcs/sim_1/imports/Lab4/uP16_top_tb.v,,uP16_top,,,,,,,,
